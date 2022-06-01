@@ -18,7 +18,7 @@ window.onload = function (){
 
     $('.card_add_basket').on('click', 'button[type="button"]', function(){
 
-    let t_href = event.value;
+    let t_href = event.target.value;
     //console.log(t_href);
 
     $.ajax(
